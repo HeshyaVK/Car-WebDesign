@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>  
+    .logo{
+        background-color: white;
+        color: blue;
+        margin-right: 1270px;
+        text-align: center;
+        padding: 5px;
+    }
+    body{
+        background-color: black;
+        color: white;
+        font-weight: bold;
+             
+    }
+    .container{
+        padding: 16px;
+        background-color: black;
+    }
+    .registerbtn{
+        background-color: #04AA6D;
+        color: white;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+    }
+    .registerbtn:hover{
+        opacity: 1;
+    }
+    input[type=text]:focus{
+        background-color: #ddd;
+        outline: none;
+    }
+    input[type=text] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+    }
+    .home{
+        text-align: center;
+        font-size: 22px;
+    }
+  
+
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <i class='fab fa-dropbox' style="color: red; font-size: 18px;" ></i>  MARUTHI SUZUKI <br> ARENA
+    
+    </div>
+        <form>
+            <div class="container">
+                <h1 style="text-align: center; color: red;">Register</h1>
+                <p style="text-align: center;">Please fill this form to book a test drive</p>
+                
+                <lable for="city" ><b>Select City</b></lable>
+                <input type="text" placeholder="Enter your City" id="city">
+
+                <lable for="model">Car Model</lable>
+                <input type="text" placeholder="Select model" id="model">
+                <button type="submit" class="registerbtn">Register</button>
+            </div>
+        </form>  
+  
+        <hr>
+        
+        <div class="container home">
+          <a href="index.html">Home</a>
+        </div>
+        
+    
+</body>
+</html>
